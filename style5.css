@@ -1,0 +1,134 @@
+body{
+     background-color:white;
+     color:black;
+    }
+*{
+   margin-right:25px;
+   margin-left:25px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    color:black;
+    padding:10px 5px ;
+   }
+a{
+  color:black;
+  text-decoration:none;
+  margin-right:10px;
+  padding:5px 5px;
+  font-weight:bold;
+  }
+#logolink
+{  
+  display:flex;
+  align-items:center;
+}
+#logolink h1{
+            margin-right:100px;
+            }
+.grad{
+        background-image:linear-gradient(to right,blue 0%,purple 50%);
+        background-clip:text;
+       -webkit-text-fill-color:transparent;
+
+}
+h2{
+   font-size:30px;
+   }
+main{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     padding:100px 100px 50px 50px;
+    }
+image{
+      margin:50px;
+     }
+.hire{
+     border:solid thin orange;
+     background-color:orange;
+     padding:5px;
+}
+.active{
+        border:solid thin blue;
+        border-radius:5px;
+       }
+#div1{
+      justify-content:center;
+      align-items:center;
+      
+  
+      padding:0px;
+      text-align:center;
+}
+#div2{
+      display:flex;
+      
+      height:300px;
+      justify-content:center;
+      align-items:center;
+     
+      }
+#div21{
+       
+   }
+                
+#div22{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:space-between;
+      
+      }
+#d1{
+    align-items-center;
+    text-align:center;
+}
+
+#skills{
+  display:flex;
+  justify-content:center;
+  justify-content:space-between;
+  }
+.abc{
+     box-shadow:2px 5px 5px 0px gray;
+     border-radius:5px;
+     border:solid thin gray;
+     height:150px;
+     padding:50px;
+     width:200px;
+     }
+#projects{
+  display:flex;
+  justify-content:center;
+  
+  }
+     .ab{
+     border-radius:2px;
+     border:solid thin blue;
+     justify-content:center;
+     padding:100px;
+     
+     width:150px;
+     }
+#contacts{
+  display:flex;
+  justify-content:center;
+  
+  }
+     .abd{
+     box-shadow:2px 5px 5px 0px gray;
+     border-radius:5px;
+     border:solid thin gray;
+     height:150px;
+     padding:50px;
+     width:200px;
+     }
+
+
+
+
+
