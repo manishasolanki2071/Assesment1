@@ -1,0 +1,95 @@
+body{
+     background-color:white;
+     color:black;
+    }
+*{
+   margin:0px;
+   }
+ 
+header{
+    display:flex;
+    margin-left:15px;
+    align-items:center;
+    }
+
+.yt{
+      margin-left:20px;
+}
+.search{
+       border-radius:50px 0px 0px 50px;
+       border:solid thin grey;
+       padding:15px;
+       margin-left:300px;
+       width:600px;
+       height:30px;
+}
+#sup{
+    margin-bottom:10px;
+    font-size:10pt;
+    
+}
+.sicon{
+      border:solid thin grey;
+      border-radius:0px 50px 50px 0px;
+      padding:5px;
+    }
+    .icon{
+    	margin-left: 200px;
+    }
+    main{
+    	display: flex;
+    }
+    aside{
+    	height: 80vh;
+    	width: 200px;
+    	overflow-y: auto;
+
+    }
+    .nav{
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	margin-top: 15px;
+    	margin-bottom: 15px;
+    }
+    .navlink{
+    	display: flex;
+    	align-items: center;
+    	padding: 12px 25px;
+    }
+    .navlink span{
+    	margin-left:15px;
+    }
+    aside a:hover{
+    	transform:translateX(25px);
+    	transition: all 1s;
+    }
+    section{
+    	display: grid;
+    	grid-template-columns: auto auto auto;
+    	grid-gap: 10px;
+    	margin-left: 20px;
+    	margin-top: 20px;
+    }
+    .mainfun a{
+    	color: black;
+    	background-color: #ccc;
+
+    	margin-left: 10px;
+    	text-decoration: none;
+    	align-items: center;
+    	padding: 7px 12px;
+    	border-radius: 10px;
+
+    }
+    .vdodiv{
+    	margin-left: 20px;
+    }
+    #active{
+    	background-color: black;
+    	color: white;
+
+    }
+section img:hover{
+	transform:scale(1.2);
+}
