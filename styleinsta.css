@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+}
+.insta{
+	margin:100px 500px 0px 500px;
+	box-shadow: 1px 1px 5px 1px gray;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	flex-direction:column;
+    padding:30px;
+	
+}
+.insta h1{
+	padding-bottom:30px; 
+}
+.insta input{
+	width:100%;
+	height:30px;
+	border-radius: 5px;
+	border:solid thin gray;
+}
+.insta button{
+	width:100%;
+	height:30px;
+	border-radius: 5px;
+	background-color: #5794eb;
+    border:solid thin blue;
+	color: white;
+}
+.ordiv{
+	display: flex;
+	justify-content: center;
+	width:100%;
+	align-items: center;
+}
+.line{
+	width: 100%;
+	height:2px;
+	background-color: gray;
+}
